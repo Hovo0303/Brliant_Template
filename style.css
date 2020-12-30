@@ -1,0 +1,551 @@
+body{
+    margin: 0;
+}
+.header{
+    height: 540px;
+    position: relative;
+}
+
+.head img{
+    width: 100%;
+    height: 540px;
+}
+.logo{
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+}
+.logo h1{
+    font-size: 25px;
+    color: white;
+}
+.menu{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    display: flex;
+}
+
+.font{
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    height: 80px;
+}
+ .fa-bars{
+     color: white;
+     font-size: 25px;
+     margin-left:80px;
+     margin-top: 8px;
+ }
+.menu1{
+    display: flex;
+    justify-content: center;
+    width: 70px;
+    height: 40px;   
+}
+.menu1 h1{
+    font-size: 24px;
+    color: white;
+    margin-top: 8px;
+}
+.klor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50px;
+    position: absolute;
+    top: 130px;
+    left: 550px;  
+}
+.fa-gem{
+    font-size: 45px;
+    color: white;
+}
+.text_text{
+    width: 450px;
+    height: 150px;
+    position: absolute;
+    left: 400px;
+    top: 250px;
+    text-align: center;
+}
+.text_text h1{
+    font-size: 30px;
+    color: white;
+    margin-right: 25px;
+}
+.text_text h2{
+    font-size: 21px;
+    color: white;
+    margin-right: 25px;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    left: 500px;
+    top: 380px;
+    background: rgb(0, 128, 79);
+    cursor: pointer;
+    outline: none!important;
+}
+.diver{
+    height: 850px;
+    background-color: #EEE
+}
+.divv{
+    height: 300px;
+    margin-top: 60px;
+}
+.divv.row{
+    display: flex;
+    flex-direction: column;
+}
+.cont2{
+    width: 470px;
+    height: 300px;
+    display: flex; 
+    padding: 0;
+}
+.const_img{
+    width: 470px;
+    height: 300px;
+}
+.const_img img{
+    width: 470px;
+    height: 300px;
+    margin-top: 5px;
+}
+.const_text{
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    height: 340px 
+}
+.text1{
+    width: 470px;
+    height:100px;
+    position: relative;
+}
+.text1 h1{
+    font-size: 24px;
+    position: absolute;
+    top: -10px;
+    left: 15px;
+}
+.text1 h2{
+    font-size: 24px;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+.text2{
+    width: 470px;
+    height:100px;
+    position: relative;
+}
+.buton1 button{
+    width: 160px;
+    height: 40px;
+    /* border: 1px solid green;  */
+    border-radius:25px;
+    color: green;
+    margin-left: 10px;  
+    cursor: pointer;
+    outline: none;
+}
+.text2 small{
+    font-size: 16px;
+    position: absolute;
+    left: 15px;
+}
+.buton1{
+    width: 470px;
+    height:100px;
+}
+.cont3{
+    width: 470px;
+    height: 350px;
+    padding: 0;
+}
+.divvv{
+    height: 330px;
+    margin-top: 110px;
+}
+.divvv.row{
+    display: flex;
+    flex-direction: column; 
+}
+.cont1{
+    width: 125px;
+    height: 350px;
+}
+.cont2{
+    width: 470px;
+    height: 350px;
+}
+.cont3{
+    width: 470px;
+    height: 350px;
+}
+.blank{
+    height: 240px;
+}
+.blank_text{
+    height: 200px;
+    text-align: center;
+    margin-top: 60px;
+}
+.blank_text h1{
+    font-size: 35px;
+}
+.blank_text h2{
+    font-size: 18px;
+}
+.blank_text .row{
+    flex-direction: column;
+    display: flex;
+}
+.blank1{
+    width: 750px;
+    height: 300px;
+}
+.blank2{
+    width: 250px;
+    height: 300px;
+}
+.nkarner{
+    height: 600px;
+}
+.nkarner_img{
+    width: 970px;
+    height: 600px;
+    padding: 0;
+}
+.nkarner1{
+    display: flex;
+    width: 970px;
+    height: 200px; 
+}
+.nkar1{
+    width: 242px;
+    height: 200px;
+}
+.nkar1 img{
+    width: 242px;
+    height: 200px;
+}
+.nkar2{
+    width: 242px;
+    height: 200px;
+}
+.nkar2 img{
+    width: 242px;
+    height: 200px;
+}
+.nkar3{
+    width: 242px;
+    height: 200px;
+}
+.nkar3 img{
+    width: 242px;
+    height: 200px;
+}
+.nkar4{
+    width: 242px;
+    height: 200px;
+}
+.nkar4 img{
+    width: 242px;
+    height: 200px;
+}
+.nkarner2{
+    display: flex;
+    width: 970px;
+    height: 200px;
+}
+.nkarner3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 970px;
+    height: 200px;  
+}
+.nkarner3 button{
+    width:220px;
+    height: 55px;
+    border: 1px solid green;
+    border-radius: 25px;
+    color: green;
+    cursor: pointer;
+    outline: none;
+}
+.paris{
+    height: 450px;
+    position: relative;
+}
+.paris img{
+    width: 100%;
+    height: 450px;
+}
+.paris_nkar{
+    padding: 0;
+}
+.pariss1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    width:730px;
+    height: 300px;
+    left: 300px;
+    top: 80px;
+}
+.pariss2{
+    width:730px;
+    height: 150px;
+}
+.pariss2 h1{
+    color: white;
+    font-size: 35px;
+}
+.pariss2 h2{
+    color: white;
+    font-size: 18px;
+}
+.pariss3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:730px;
+    height: 150px;
+}
+.pariss3 button{
+    width: 200px;
+    height: 50px;
+    border: 1px solid green; 
+    border-radius: 25px;
+    color: green;
+    cursor: pointer;
+    outline: none;
+}
+.verchi_div{
+    background: #1E2832;
+    height: 680px;
+}
+.but_div{
+    height: 150px;
+    margin-top: 65px;
+}
+.butt_text{
+    text-align: center;
+}
+.butt_text h1{
+    font-size: 35px;
+    color: white;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.butt_text h2{
+    font-size: 17px;
+    color: white;
+    margin-left: 35px;
+    margin-top: 20px; 
+}
+.button_div{
+    height: 280px;
+    cursor: pointer;
+    outline: none;
+}
+.btt_div{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+
+}
+.div_but{
+    display: flex;
+    position: relative;
+    width: 650px;
+    height: 50px;
+}
+.div_but textarea{
+    position: absolute;
+    width: 670px;
+    height: 200px;
+    border-radius: 8px;
+    top: 60px;
+    background-color: rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+    outline: none;
+
+}
+.div_but .submit{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    top: 320px;
+    left: 180px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.div_but .reset{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    top: 320px;
+    left: 350px;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.inp1{
+    width: 330px;
+    height: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+}
+.inp1 input{
+    width: 330px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+    outline: none;
+}
+.inp2{
+    width: 330px;
+    height: 50px;
+    border-radius: 8px;
+    margin-left: 10px;
+  
+}
+.inp2 input{
+    width: 330px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.05);
+    cursor: pointer;
+    outline: none;
+}
+.inp2 textarea{
+    width: 300px;
+    height: 200px;
+}
+.textare_input{
+    width: 660px;
+    height: 280px;  
+}
+.icon{
+    height: 300px;
+    background: #1E2832;
+}
+.iconka{
+    height: 200px;
+}
+.fb_icon{
+    display: flex;
+    justify-content: center;
+    height: 60px; 
+}
+.fb_icon1{
+    display: flex;
+    flex-direction:column;
+    width:850px;
+    height: 300px;
+}
+.line{
+    width: 850px;
+    height: 2px;
+    background: white;
+    margin-top: 5px;
+}
+.insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 850px;
+    height: 60px;
+    margin-top:25px;   
+}
+.fb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 30px;  
+}
+.fa-facebook-f{
+    font-size: 30px;
+    color: white;
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.fa-instagram{
+    font-size: 30px;
+    color: white;
+}
+.tvit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 30px; 
+}
+.fa-twitter{
+    font-size: 30px;
+    color: white;
+}
+.in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.fa-linkedin-in{
+    font-size: 30px;
+    color: white;
+}
+.template{
+    width: 850px;
+    height: 200px;
+    text-align: center;
+}
+.template h1{
+    color: white;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+
+
+/* https://templated.co/retrospect */
